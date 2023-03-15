@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+  margin: 0;
+}
+
+.App{
+  font-family: 'Lato', sans-serif;
+}

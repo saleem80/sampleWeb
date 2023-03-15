@@ -1,0 +1,85 @@
+.chooseUsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 1.5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+  color: rgb(15, 210, 210);
+}
+
+.reasonCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.reasonCards .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 275px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 10px;
+  border-radius: 15px;
+  gap: 0.5rem;
+  box-shadow: 0px 4px 4px 4px rgba(127, 127, 127, 0.5);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.reasonCards .card .cardTitle {
+  color: rgb(127, 127, 127);
+  font-size: 30px;
+  font-weight: bold;
+}
+.reasonCards .card .cardDesc {
+  color: rgb(127, 127, 127);
+}
+.reasonCards :nth-child(1) {
+  transition-delay: 0s;
+}
+.reasonCards :nth-child(2) {
+  transition-delay: 0.25s;
+}
+.reasonCards :nth-child(3) {
+  transition-delay: 0.5s;
+}
+.reasonCards :nth-child(4) {
+  transition-delay: 0.75s;
+}
+
+.fadeIn .card {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.fadeIn :nth-child(1) {
+  transition-delay: 0s;
+}
+.fadeIn :nth-child(2) {
+  transition-delay: 0.25s;
+}
+.fadeIn :nth-child(3) {
+  transition-delay: 0.5s;
+}
+.fadeIn :nth-child(4) {
+  transition-delay: 0.75s;
+}
+
+@media screen and (max-width: 630px) {
+  .chooseUsSection {
+    margin-top: 30px;
+    padding: 15px;
+  }
+  .sectionTitle {
+    font-size: 55px;
+  }
+}/*# sourceMappingURL=ChooseUsSection.css.map */
