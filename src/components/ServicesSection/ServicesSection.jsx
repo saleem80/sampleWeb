@@ -31,7 +31,7 @@ const ServicesSection = () => {
       </div>
       <div className="imageSection">
         <img 
-          src='../public/servicesImage.png' 
+          src='../servicesImage.png' 
           className='serviceImage'
           ref={serviceImageRef} 
           width={515} height={515}/>

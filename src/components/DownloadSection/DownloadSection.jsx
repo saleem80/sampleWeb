@@ -20,7 +20,7 @@ const DownloadSection = () => {
     <section className="downloadSection">
       <div className="imageSection">
         <img 
-          src='../public/appsImage.png' 
+          src='../appsImage.png' 
           className='downloadImage'
           ref={downloadImageRef} 
           width={576} height={360}/>
@@ -34,10 +34,10 @@ const DownloadSection = () => {
         </div>
         <div className="downloadButtons">
           <button>
-            <img src="../public/downloadAppAndroid.png" height={50} width={147}/>
+            <img src="../downloadAppAndroid.png" height={50} width={147}/>
           </button>
           <button>
-            <img src="../public/downloadAppApple.png" height={43} width={148}/>
+            <img src="../downloadAppApple.png" height={43} width={148}/>
           </button>
         </div>
       </div>
