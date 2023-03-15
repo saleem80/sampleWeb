@@ -20,7 +20,7 @@ const AboutSection = () => {
     <section className='aboutSection'>
       <div className="aboutLeft">
         <img 
-          src='../src/images/aboutUsImage.png' 
+          src='../public/aboutUsImage.png' 
           className='aboutImage'
           ref={aboutImageRef} 
           width={750} height={450}/>
